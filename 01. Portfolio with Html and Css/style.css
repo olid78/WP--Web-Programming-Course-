@@ -27,3 +27,39 @@ body {
     font-family: 'Fira Code', monospace;
     color: var(--accent);
 }
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0; width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: rgba(11, 14, 20, 0.85);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo { font-weight: 900; font-size: 1.5rem; color: var(--white); }
+.logo span { color: var(--accent); }
+
+.nav-links { display: flex; list-style: none; }
+.nav-links li { margin: 0 20px; }
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+.nav-links a:hover { color: var(--accent); }
+
+.resume-btn {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
+}
