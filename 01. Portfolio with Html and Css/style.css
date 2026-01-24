@@ -129,3 +129,23 @@ body {
 }
 .skill-category h4 { color: var(--accent); margin-bottom: 15px; }
 .skill-category ul { list-style: "▹ "; padding-left: 20px; color: var(--text-dim); }
+
+/* Contact Form */
+.contact-card {
+    background: var(--bg-alt);
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.input-group { display: flex; gap: 20px; margin-bottom: 20px; }
+input, textarea {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--text-dim);
+    padding: 15px;
+    color: var(--white);
+    border-radius: 4px;
+}
