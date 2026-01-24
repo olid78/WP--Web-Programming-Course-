@@ -96,3 +96,27 @@ body {
     text-decoration: none;
     border-radius: 4px;
 }
+/* Sections */
+.section { padding: 100px 10%; }
+.section-title {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.section-title::after {
+    content: ""; display: block; height: 1px; width: 300px;
+    background: var(--bg-alt); margin-left: 20px;
+}
+
+/* About Grid */
+.about-container { display: grid; grid-template-columns: 1.5fr 1fr; gap: 50px; }
+.about-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.stat-box {
+    background: var(--bg-alt);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border-bottom: 3px solid var(--accent);
+}
