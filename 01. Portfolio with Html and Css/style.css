@@ -120,3 +120,12 @@ body {
     text-align: center;
     border-bottom: 3px solid var(--accent);
 }
+/* Skills Grid */
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+.skill-category {
+    background: var(--bg-alt);
+    padding: 30px;
+    border-radius: 12px;
+}
+.skill-category h4 { color: var(--accent); margin-bottom: 15px; }
+.skill-category ul { list-style: "▹ "; padding-left: 20px; color: var(--text-dim); }
