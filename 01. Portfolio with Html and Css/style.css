@@ -77,3 +77,22 @@ body {
 .hero .description { max-width: 600px; margin-top: 20px; color: var(--text-dim); }
 
 .hero-btns { margin-top: 40px; display: flex; gap: 20px; }
+
+/* Buttons */
+.btn-primary {
+    background: var(--accent);
+    color: var(--bg);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.btn-secondary {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+}
