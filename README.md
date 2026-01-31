@@ -11,6 +11,7 @@ Folders are numbered to reflect the order in which the topics were introduced.
 
 Example:
 - `01-portfolio-website-html-css` – Portfolio website built using HTML and CSS
+- `02-simple-js-task` – A simple JS Quiz App 
 
 
 ## Technologies Used
