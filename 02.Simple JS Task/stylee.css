@@ -1,0 +1,41 @@
+body {
+  background: #e8f0ff;
+  font-family: Arial;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4b6cff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #3448d8;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  margin-top: 15px;
+}
