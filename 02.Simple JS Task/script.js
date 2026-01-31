@@ -28,7 +28,7 @@ const quizData = [
 
 let quiz = document.getElementById("quiz");
 
-// show questions
+
 quizData.forEach((item, index) => {
 
   quiz.innerHTML += `
@@ -43,7 +43,7 @@ quizData.forEach((item, index) => {
   `;
 });
 
-// check answers
+
 function checkAnswer() {
 
   let score = 0;
